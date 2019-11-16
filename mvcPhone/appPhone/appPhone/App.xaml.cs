@@ -11,7 +11,7 @@ namespace appPhone
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage mainPage = MainPage = new MainPage();
         }
 
         protected override void OnStart()
