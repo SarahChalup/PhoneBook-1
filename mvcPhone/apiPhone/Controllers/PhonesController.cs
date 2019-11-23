@@ -110,7 +110,7 @@ namespace apiPhone.Controllers
             base.Dispose(disposing);
         }
 
-        private bool PhoneExists(int id)
+        public bool PhoneExists(int id)
         {
             return db.Phones.Count(e => e.PhoneID == id) > 0;
         }
